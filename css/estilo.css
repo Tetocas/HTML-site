@@ -1,0 +1,80 @@
+ /* Importando fonte moderna */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@300;400;700&display=swap');
+
+:root {
+    --primary-color: #0d6efd;
+    --bg-dark: #050505;
+    --bg-darker: #000000; 
+}
+
+body {
+    background-color: var(--bg-dark);
+    color: #e0e0e0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, .navbar-brand {
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 1px;
+}
+
+.navbar {
+    backdrop-filter: blur(10px);
+    background-color: rgba(0,0,0,0.9) !important;
+}
+
+.nav-link {
+    transition: 0.3s;
+}
+
+.nav-link:hover, .nav-link.active {
+    color: var(--primary-color) !important;
+}
+
+.vh-100-custom {
+    height: 100vh;
+    object-fit: cover;
+    filter: brightness(0.6); 
+}
+
+.carousel-caption {
+    bottom: 20%;
+}
+
+.bg-darker {
+    background-color: var(--bg-darker);
+}
+
+.card {
+    transition: transform 0.3s, border-color 0.3s;
+}
+
+.card-hover:hover {
+    transform: translateY(-10px);
+    border-color: var(--primary-color) !important;
+    box-shadow: 0 0 15px rgba(13, 110, 253, 0.3);
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: rgba(13, 110, 253, 0.2);
+    color: var(--primary-color);
+    box-shadow: none;
+}
+
+.accordion-button:focus {
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+.team-card img {
+    object-fit: cover;
+}
+.team-card:hover {
+    border-color: var(--primary-color) !important;
+}
+
+.form-control:focus, .form-select:focus {
+    background-color: #111;
+    color: #fff;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}

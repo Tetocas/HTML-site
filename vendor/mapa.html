@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body, html { margin: 0; padding: 0; height: 100%; overflow: hidden; }
+        iframe { width: 100%; height: 100%; border: 0; }
+        
+        /* Filtro para deixar o mapa em tons de cinza/escuro (Tema Espacial) */
+        .map-filter {
+            filter: invert(90%) hue-rotate(180deg) contrast(90%);
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="map-filter">
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d5430.009230535423!2d-47.88368026951625!3d-15.77247874416424!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1765432132731!5m2!1spt-BR!2sbr" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </div>
+</body>
+</html>

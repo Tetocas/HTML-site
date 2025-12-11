@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato | Cosmos Travel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="assets/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body class="bg-dark text-light">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top shadow-lg">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-uppercase d-flex align-items-center" href="index.html">
+                <img src="img/logo.png" alt="Logo" width="40" height="40" class="me-2">
+                Cosmos<span class="text-primary">Travel</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <a class="nav-link" href="index.html">Home</a>
+                    <a class="nav-link" href="produtos.html">Produtos</a>
+                    <a class="nav-link" href="equipe.html">Equipe</a>
+                    <a class="nav-link" href="sobre.html">Sobre Nós</a>
+                    <a class="nav-link active" href="contato.html">Contato</a>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="bg-black py-5 mt-5 border-bottom border-secondary">
+        <div class="container text-center pt-5">
+            <h1 class="display-4 fw-bold text-white">Central de Controle</h1>
+            <p class="lead text-muted">Estamos prontos para receber sua transmissão.</p>
+        </div>
+    </header>
+
+    <section class="py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6">
+                    <div class="p-4 bg-black border border-secondary rounded shadow h-100">
+                        <h3 class="text-white mb-4">Envie uma Mensagem</h3>
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label text-primary">Nome Completo</label>
+                                <input type="text" class="form-control bg-dark text-white border-secondary" id="nome">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label text-primary">E-mail</label>
+                                <input type="email" class="form-control bg-dark text-white border-secondary" id="email">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label text-primary">Mensagem</label>
+                                <textarea class="form-control bg-dark text-white border-secondary" id="mensagem" rows="5"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100 fw-bold">Enviar Transmissão</button>
+                        </form>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6">
+                    <div class="h-100 d-flex flex-column">
+                        <h3 class="text-white mb-4">Localização da Base</h3>
+                        
+                        <div class="ratio ratio-16x9 mb-4 border border-secondary rounded overflow-hidden flex-grow-1">
+                            <iframe src="vendor/mapa.html" title="Mapa Local" allowfullscreen></iframe>
+                        </div>
+                        
+                        <ul class="list-unstyled text-muted lead bg-black p-4 border border-secondary rounded">
+                            <li class="mb-3"><i class="fas fa-map-marker-alt me-3 text-primary"></i> Av. Espacial, 2049 - Cabo Canaveral</li>
+                            <li class="mb-3"><i class="fas fa-phone me-3 text-primary"></i> +55 (11) 99999-0000</li>
+                            <li class="mb-3"><i class="fas fa-envelope me-3 text-primary"></i> contato@cosmostravel.com</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-black text-white text-center py-4 border-top border-secondary">
+        <div class="container">
+            <p class="mb-0">© 2025 Cosmos Travel. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="assets/bootstrap/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pacotes | Cosmos Travel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="assets/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilo.css">
+    <style>
+        .card-img-top { height: 250px; object-fit: cover; }
+        .card-hover:hover { transform: translateY(-5px); transition: 0.3s; border-color: #0d6efd !important; }
+    </style>
+</head>
+<body class="bg-dark text-light">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top shadow-lg">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-uppercase d-flex align-items-center" href="index.html">
+                <img src="img/logo.png" alt="Logo" width="40" height="40" class="me-2">
+                Cosmos<span class="text-primary">Travel</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <a class="nav-link" href="index.html">Home</a>
+                    <a class="nav-link active" href="produtos.html">Produtos</a>
+                    <a class="nav-link" href="equipe.html">Equipe</a>
+                    <a class="nav-link" href="sobre.html">Sobre Nós</a>
+                    <a class="nav-link" href="contato.html">Contato</a>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="bg-black py-5 mt-5 border-bottom border-secondary">
+        <div class="container text-center pt-5">
+            <h1 class="display-4 fw-bold text-white">Nossas Expedições</h1>
+            <p class="lead text-muted">Escolha seu destino no sistema solar.</p>
+        </div>
+    </header>
+
+    <section class="py-5">
+        <div class="container">
+            <div class="row g-4">
+                
+                <div class="col-md-4">
+                    <div class="card h-100 bg-dark border-secondary text-white card-hover">
+                        <img src="img/produto1.jpg" class="card-img-top" alt="Órbita">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title fw-bold">Voo Orbital Padrão</h5>
+                            <p class="card-text text-muted">A experiência clássica de gravidade zero.</p>
+                            <div class="mt-auto">
+                                <button class="btn btn-outline-primary w-100" data-bs-toggle="modal" data-bs-target="#modalProd1">Ver Detalhes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100 bg-dark border-secondary text-white card-hover">
+                        <img src="img/produto2.jpg" class="card-img-top" alt="Lua">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title fw-bold">Estadia Lunar VIP</h5>
+                            <p class="card-text text-muted">Fim de semana no resort Artemis Base.</p>
+                            <div class="mt-auto">
+                                <button class="btn btn-outline-primary w-100" data-bs-toggle="modal" data-bs-target="#modalProd2">Ver Detalhes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100 bg-dark border-secondary text-white card-hover">
+                        <img src="img/produto3.jpg" class="card-img-top" alt="Marte">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title fw-bold">Treinamento Marte</h5>
+                            <p class="card-text text-muted">Simulação completa de colonização.</p>
+                            <div class="mt-auto">
+                                <button class="btn btn-outline-primary w-100" data-bs-toggle="modal" data-bs-target="#modalProd3">Ver Detalhes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100 bg-dark border-secondary text-white card-hover">
+                        <img src="img/produto4.jpg" class="card-img-top" alt="EVA Space Walk">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title fw-bold">Caminhada Espacial (EVA)</h5>
+                            <p class="card-text text-muted">A sensação definitiva: flutue fora da nave.</p>
+                            <div class="mt-auto">
+                                <button class="btn btn-outline-primary w-100" data-bs-toggle="modal" data-bs-target="#modalProd4">Ver Detalhes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100 bg-dark border-secondary text-white card-hover">
+                        <img src="img/produto5.jpg" class="card-img-top" alt="Casamento">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title fw-bold">Casamento Zero-G</h5>
+                            <p class="card-text text-muted">Diga "sim" entre as estrelas. Cerimônia exclusiva.</p>
+                            <div class="mt-auto">
+                                <button class="btn btn-outline-primary w-100" data-bs-toggle="modal" data-bs-target="#modalProd5">Ver Detalhes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100 bg-dark border-secondary text-white card-hover">
+                        <img src="img/produto6.jpg" class="card-img-top" alt="Saturno">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title fw-bold">Cruzeiro Anéis de Saturno</h5>
+                            <p class="card-text text-muted">A viagem mais luxuosa e distante do sistema solar.</p>
+                            <div class="mt-auto">
+                                <button class="btn btn-outline-primary w-100" data-bs-toggle="modal" data-bs-target="#modalProd6">Ver Detalhes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <div class="modal fade" id="modalProd1" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content bg-dark text-white border-primary">
+                <div class="modal-header border-secondary">
+                    <h5 class="modal-title">Detalhes: Voo Orbital</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Suba a 400km de altitude a bordo da nossa nave Dragon-X. Inclui:</p>
+                    <ul>
+                        <li>3 horas de voo total</li>
+                        <li>45 minutos de gravidade zero</li>
+                        <li>Fotos profissionais</li>
+                        <li>Traje customizado incluso</li>
+                    </ul>
+                    <h4 class="text-primary mt-3">R$ 450.000,00</h4>
+                </div>
+                <div class="modal-footer border-secondary">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    <a href="contato.html" class="btn btn-primary">Comprar Agora</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalProd2" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content bg-dark text-white border-primary">
+                <div class="modal-header border-secondary">
+                    <h5 class="modal-title">Detalhes: Estadia Lunar</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>A vista mais exclusiva da humanidade. O pacote inclui transporte e hospedagem na Base Artemis.</p>
+                    <ul>
+                        <li>Viagem de ida e volta (3 dias cada)</li>
+                        <li>2 noites no Hotel Crater View</li>
+                        <li>Caminhada lunar guiada</li>
+                    </ul>
+                    <h4 class="text-primary mt-3">R$ 2.500.000,00</h4>
+                </div>
+                 <div class="modal-footer border-secondary">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    <a href="contato.html" class="btn btn-primary">Reservar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalProd3" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content bg-dark text-white border-primary">
+                <div class="modal-header border-secondary">
+                    <h5 class="modal-title">Detalhes: Treinamento Marte</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Prepare-se para o futuro. Um bootcamp de 6 meses no deserto do Atacama simulando condições marcianas.</p>
+                    <ul>
+                        <li>Sobrevivência em ambiente hostil</li>
+                        <li>Agricultura espacial</li>
+                        <li>Psicologia de isolamento</li>
+                    </ul>
+                    <h4 class="text-primary mt-3">R$ 150.000,00</h4>
+                </div>
+                 <div class="modal-footer border-secondary">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    <a href="contato.html" class="btn btn-primary">Inscrever-se</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalProd4" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content bg-dark text-white border-primary">
+                <div class="modal-header border-secondary">
+                    <h5 class="modal-title">Detalhes: Caminhada Espacial (EVA)</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>A experiência suprema. Saia da segurança da nave preso apenas por um cabo de aço e sinta o silêncio absoluto.</p>
+                    <ul>
+                        <li>15 minutos fora da nave</li>
+                        <li>Traje pressurizado de última geração</li>
+                        <li>Gravação em 360º inclusa</li>
+                    </ul>
+                    <h4 class="text-primary mt-3">R$ 800.000,00</h4>
+                </div>
+                <div class="modal-footer border-secondary">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    <a href="contato.html" class="btn btn-primary">Reservar Vaga</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalProd5" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content bg-dark text-white border-primary">
+                <div class="modal-header border-secondary">
+                    <h5 class="modal-title">Detalhes: Casamento Zero-G</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Troque alianças flutuando a 300km acima da Terra. Um evento exclusivo para o casal e 4 convidados.</p>
+                    <ul>
+                        <li>Cerimônia conduzida pelo Comandante</li>
+                        <li>Champanhe especial para gravidade zero</li>
+                        <li>Transmissão ao vivo para a Terra</li>
+                    </ul>
+                    <h4 class="text-primary mt-3">R$ 1.200.000,00</h4>
+                </div>
+                <div class="modal-footer border-secondary">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    <a href="contato.html" class="btn btn-primary">Orçar Evento</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalProd6" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content bg-dark text-white border-primary">
+                <div class="modal-header border-secondary">
+                    <h5 class="modal-title">Detalhes: Cruzeiro Saturno</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>A joia da nossa coroa. Uma viagem de 2 anos (ida e volta) em hibernação criogênica até os anéis de Saturno.</p>
+                    <ul>
+                        <li>Suíte de luxo na nave-mãe "Cronos"</li>
+                        <li>Observação dos anéis a curta distância</li>
+                        <li>Seguro de vida interplanetário incluso</li>
+                    </ul>
+                    <h4 class="text-primary mt-3">R$ 50.000.000,00</h4>
+                </div>
+                <div class="modal-footer border-secondary">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    <a href="contato.html" class="btn btn-primary">Falar com Consultor</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-black text-white text-center py-4 border-top border-secondary mt-5">
+        <div class="container">
+            <p class="mb-0">© 2025 Cosmos Travel. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="assets/bootstrap/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+/* Arquivo de Wrapper para o FontAwesome
+   Isso permite manter a estrutura de pastas local solicitada,
+   enquanto carrega os ícones da CDN para garantir que funcionem
+   sem precisar baixar os arquivos de fonte binários (.woff2).
+*/
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
+
+/* Adicione estilos extras para ícones aqui se precisar */
+.fa-rocket, .fa-star {
+    transition: transform 0.3s ease;
+}
+
+.fa-rocket:hover {
+    transform: rotate(45deg);
+}

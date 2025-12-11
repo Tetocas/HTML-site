@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmos Travel | Turismo Espacial</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link href="assets/bootstrap/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-dark text-white">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top shadow-lg">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-uppercase d-flex align-items-center" href="index.html">
+                <img src="img/logo.png" alt="Logo Cosmos" width="40" height="40" class="me-2">
+                Cosmos<span class="text-primary">Travel</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    <a class="nav-link" href="produtos.html">Produtos</a>
+                    <a class="nav-link" href="equipe.html">Equipe</a>
+                    <a class="nav-link" href="sobre.html">Sobre Nós</a>
+                    <a class="nav-link" href="contato.html">Contato</a>
+                    <li class="nav-item ms-3">
+                        <a href="#" class="text-white me-2"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-linkedin"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/destaque1.jpg" class="d-block w-100 vh-100-custom" alt="Terra vista do espaço">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="display-4 fw-bold">O Infinito é o Destino</h5>
+                    <p class="lead">Experiências de turismo orbital com segurança e luxo.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/destaque2.jpg" class="d-block w-100 vh-100-custom" alt="Astronauta">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="display-4 fw-bold">Tecnologia de Ponta</h5>
+                    <p class="lead">Nossas naves são projetadas pelos maiores engenheiros da galáxia.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/destaque3.jpg" class="d-block w-100 vh-100-custom" alt="Nebulosa">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="display-4 fw-bold">Descubra o Desconhecido</h5>
+                    <p class="lead">Pacotes exclusivos para Marte e além.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Próximo</span>
+        </button>
+    </header>
+
+    <section id="sobre" class="py-5 bg-darker">
+        <div class="container py-4">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <h2 class="text-uppercase fw-bold text-primary mb-3">Sobre a Cosmos Travel</h2>
+                    <p class="text-white">Fundada em 2024, a Cosmos Travel nasceu com um propósito audacioso: democratizar o acesso às estrelas. Somos pioneiros em voos suborbitais comerciais e estadias em estações espaciais de luxo.</p>
+                    <p class="text-white">Nossa missão vai além do turismo; buscamos inspirar uma nova geração de exploradores.</p>
+                    <a href="sobre.html" class="btn btn-outline-primary mt-3">Ler Nossa História</a>
+                </div>
+                <div class="col-lg-6">
+                    <div class="accordion accordion-flush" id="accordionSobre">
+                        <div class="accordion-item bg-transparent border-primary">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button collapsed bg-dark text-white shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                                    <i class="fas fa-bullseye me-2 text-primary"></i> Nossa Missão
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionSobre">
+                                <div class="accordion-body text-white">Tornar o espaço acessível, seguro e sustentável para o turismo civil até 2030.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item bg-transparent border-primary mt-2">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed bg-dark text-white shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+                                    <i class="fas fa-shield-alt me-2 text-primary"></i> Segurança em 1º Lugar
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionSobre">
+                                <div class="accordion-body text-white">Utilizamos tecnologia proprietária com índice de falha zero em mais de 500 simulações.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pacotes" class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold text-white">Próximos Lançamentos</h2>
+                <p class="text-primary">Escolha o seu destino</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 bg-dark border-secondary text-white card-hover">
+                        <img src="img/produto1.jpg" class="card-img-top" alt="Órbita Terrestre">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Órbita Baixa</h5>
+                            <p class="card-text text-white">90 minutos de gravidade zero e uma vista inesquecível do planeta azul.</p>
+                            <a href="contato.html" class="btn btn-primary w-100 mt-2">Reservar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 bg-dark border-secondary text-white card-hover">
+                        <img src="img/produto2.jpg" class="card-img-top" alt="Lua">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Expedição Lunar</h5>
+                            <p class="card-text text-white">Uma viagem de 7 dias orbitando a Lua, seguindo os passos da Apollo 8.</p>
+                            <a href="produtos.html" class="btn btn-primary w-100 mt-2">Saiba Mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 bg-dark border-secondary text-white card-hover">
+                        <img src="img/produto3.jpg" class="card-img-top" alt="Marte">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Colonização Marte</h5>
+                            <p class="card-text text-white">Para os corajosos. Programa de treinamento e viagem só de ida (futuro).</p>
+                            <a href="#" class="btn btn-outline-light w-100 mt-2 disabled">Em Breve</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="depoimentos" class="py-5 bg-darker">
+        <div class="container text-center">
+            <h2 class="text-white mb-5"><i class="fas fa-quote-left text-primary me-2"></i>O que dizem nossos viajantes</h2>
+            
+            <div id="carouselDepoimentos" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="d-flex flex-column align-items-center">
+                            <img src="img/depoimento1.jpg" class="rounded-circle mb-3 border border-primary" width="100" height="100" style="object-fit: cover;" alt="Cliente 1">
+                            <p class="lead text-white w-75 fst-italic">"Ver a Terra lá de cima mudou minha perspectiva sobre a vida. A equipe da Cosmos foi impecável."</p>
+                            <h5 class="text-primary">- Sarah Connor</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex flex-column align-items-center">
+                            <img src="img/depoimento2.jpg" class="rounded-circle mb-3 border border-primary" width="100" height="100" style="object-fit: cover;" alt="Cliente 2">
+                            <p class="lead text-white w-75 fst-italic">"A sensação de gravidade zero é indescritível. Valeu cada centavo do investimento."</p>
+                            <h5 class="text-primary">- Rick Deckard</h5>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselDepoimentos" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselDepoimentos" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6">
+                    <h2 class="text-white mb-4">Entre em Contato</h2>
+                    <form>
+                        <div class="mb-3">
+                            <label for="nome" class="form-label text-white">Nome Completo</label>
+                            <input type="text" class="form-control bg-dark text-white border-secondary" id="nome">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label text-white">E-mail</label>
+                            <input type="email" class="form-control bg-dark text-white border-secondary" id="email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="assunto" class="form-label text-white">Assunto</label>
+                            <select class="form-select bg-dark text-white border-secondary" id="assunto">
+                                <option selected>Informações Gerais</option>
+                                <option>Reserva de Voo</option>
+                                <option>Imprensa</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensagem" class="form-label text-white">Mensagem</label>
+                            <textarea class="form-control bg-dark text-white border-secondary" id="mensagem" rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Enviar Transmissão</button>
+                    </form>
+                </div>
+                
+                <div class="col-lg-6">
+                    <h2 class="text-white mb-4">Localização da Base</h2>
+                    <div class="ratio ratio-16x9 mb-4 border border-secondary">
+                        <iframe src="vendor/mapa.html" title="Localização da Base"></iframe>
+                    </div>
+                    <ul class="list-unstyled text-white">
+                        <li class="mb-2"><i class="fas fa-map-marker-alt me-2 text-primary"></i> Av. Espacial, 2049 - Cabo Canaveral</li>
+                        <li class="mb-2"><i class="fas fa-phone me-2 text-primary"></i> +55 (11) 99999-0000</li>
+                        <li><i class="fas fa-envelope me-2 text-primary"></i> contato@cosmostravel.com</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-black text-white text-center py-4 border-top border-secondary">
+        <div class="container">
+            <p class="mb-0">© 2025 Cosmos Travel. Todos os direitos reservados no universo conhecido.</p>
+            <div class="mt-2">
+                <a href="#" class="text-white me-3"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+
+    <footer class="bg-black text-white text-center py-4 border-top border-secondary">
+        </footer>
+
+</body>
+</html>
