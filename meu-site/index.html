@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoTech Soluções - Inovação Sustentável</title>
+    
+    <link href="vendor/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="fas fa-leaf"></i> EcoTech
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="sobre.html">Sobre Nós</a></li>
+                    <li class="nav-item"><a class="nav-link" href="produtos.html">Produtos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="equipe.html">Equipe</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <div id="carouselHero" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselHero" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#carouselHero" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carouselHero" data-bs-slide-to="2"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1920&q=80" class="d-block w-100" alt="Escritório Sustentável">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>Bem-vindo à EcoTech</h1>
+                        <p class="lead">Tecnologia aliada ao meio ambiente.</p>
+                        <a href="sobre.html" class="btn btn-success btn-lg">Conheça Nossa História</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1920&q=80" class="d-block w-100" alt="Energia Solar">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>Soluções Renováveis</h1>
+                        <p>Reduza sua pegada de carbono hoje mesmo.</p>
+                        <a href="produtos.html" class="btn btn-primary btn-lg">Ver Produtos</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSmYa6u6UHl1yFj5aPIynq03eHB83dLM09JA&s" class="d-block w-100" alt="Reciclagem">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>Fale com Especialistas</h1>
+                        <p>Transformamos seu negócio para o futuro.</p>
+                        <a href="contato.html" class="btn btn-light btn-lg">Entrar em Contato</a>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselHero" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselHero" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </header>
+
+    <section class="container py-5">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <h2 class="text-success fw-bold">Quem é a EcoTech?</h2>
+                <p class="lead">Líderes em soluções de TI Verde para o mercado corporativo.</p>
+                <p>Nossa empresa combina inovação tecnológica com responsabilidade ambiental. Desenvolvemos softwares que ajudam sua empresa a economizar recursos e hardwares que monitoram o consumo em tempo real.</p>
+                
+                <div class="accordion mb-3" id="accordionHome">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingHomeOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseHomeOne">
+                                Destaque: Compromisso Carbono Zero
+                            </button>
+                        </h2>
+                        <div id="collapseHomeOne" class="accordion-collapse collapse show" data-bs-parent="#accordionHome">
+                            <div class="accordion-body">
+                                Somos certificados com o selo EcoGlobal e neutralizamos 100% de nossas operações.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="sobre.html" class="btn btn-outline-success">Ler História Completa &rarr;</a>
+            </div>
+            <div class="col-md-6 text-center">
+                
+
+
+                <img src="https://images.unsplash.com/photo-1518546305927-5a555bb7020d?auto=format&fit=crop&w=600&q=80" class="img-fluid rounded shadow-lg" alt="Edifício EcoTech">
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-light py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2>Produtos em Destaque</h2>
+                <p class="text-muted">Conheça algumas de nossas soluções mais populares.</p>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="https://greenviewgv.com.br/wp-content/uploads/2025/04/ISO14001_LINKEDIN-1024x535.jpg" class="card-img-top" alt="Software">
+                        <div class="card-body">
+                            <h5 class="card-title">EcoManager</h5>
+                            <p class="card-text">O sistema de gestão definitivo para controle ambiental.</p>
+                            <a href="produtos.html" class="btn btn-success btn-sm">Ver Detalhes</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="https://images.unsplash.com/photo-1593941707882-a5bba14938c7?auto=format&fit=crop&w=400&q=80" class="card-img-top" alt="Consultoria">
+                        <div class="card-body">
+                            <h5 class="card-title">Consultoria ESG</h5>
+                            <p class="card-text">Prepare sua empresa para as exigências do mercado global.</p>
+                            <a href="produtos.html" class="btn btn-success btn-sm">Ver Detalhes</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=400&q=80" class="card-img-top" alt="IoT">
+                        <div class="card-body">
+                            <h5 class="card-title">Sensores IoT</h5>
+                            <p class="card-text">Monitoramento inteligente de água e energia elétrica.</p>
+                            <a href="produtos.html" class="btn btn-success btn-sm">Ver Detalhes</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-5">
+                <a href="produtos.html" class="btn btn-dark px-5">Ver Catálogo Completo</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="container py-5 text-center">
+        <h2 class="mb-4">Quem faz acontecer</h2>
+        <p class="mb-5 text-muted">Contamos com um time multidisciplinar apaixonado pelo planeta.</p>
+        <div class="row justify-content-center">
+            <div class="col-md-3 mb-3">
+                <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=150&q=80" class="rounded-circle mb-2" alt="Ana">
+                <h5>Ana Souza</h5>
+                <small>CEO</small>
+            </div>
+            <div class="col-md-3 mb-3">
+                <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=150&q=80" class="rounded-circle mb-2" alt="Roberto">
+                <h5>Roberto Lima</h5>
+                <small>CTO</small>
+            </div>
+            <div class="col-md-3 mb-3">
+                <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=150&q=80" class="rounded-circle mb-2" alt="Julia">
+                <h5>Júlia Mendes</h5>
+                <small>Design</small>
+            </div>
+        </div>
+        <div class="mt-4">
+            <a href="equipe.html" class="btn btn-outline-dark">Conheça toda a Equipe</a>
+        </div>
+    </section>
+
+    <section class="bg-brand text-white text-center py-5">
+        <div class="container">
+            <h2 class="mb-5"><i class="fas fa-quote-left"></i> Feedback dos Clientes</h2>
+            <div id="carouselTestimonials" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <figure class="text-center">
+                            <blockquote class="blockquote">
+                                <p>"A EcoTech mudou a forma como gerenciamos nossos recursos. Economia de 20% no primeiro mês!"</p>
+                            </blockquote>
+                            <figcaption class="blockquote-footer text-white mt-2">
+                                Carlos Silva, <cite title="Source Title">CEO da TechCorp</cite>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="carousel-item">
+                        <figure class="text-center">
+                            <blockquote class="blockquote">
+                                <p>"Atendimento excelente e produtos que realmente fazem a diferença para o planeta."</p>
+                            </blockquote>
+                            <figcaption class="blockquote-footer text-white mt-2">
+                                Mariana Costa, <cite title="Source Title">Gerente da BioVida</cite>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselTestimonials" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselTestimonials" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Próximo</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="container py-5 text-center">
+        <div class="p-5 mb-4 bg-light rounded-3 shadow-sm border">
+            <div class="container-fluid py-3">
+                <h1 class="display-5 fw-bold text-success">Pronto para transformar sua empresa?</h1>
+                <p class="col-md-8 fs-4 mx-auto">Entre em contato conosco para solicitar um orçamento ou agendar uma demonstração.</p>
+                <a href="contato.html" class="btn btn-success btn-lg mt-3" type="button">Fale Conosco Agora</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-center bg-secondary text-white py-4">
+        <div class="container">
+            <div class="social-icons mb-3">
+                <a href="#" class="text-white mx-2 fs-4"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="text-white mx-2 fs-4"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="text-white mx-2 fs-4"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="text-white mx-2 fs-4"><i class="fab fa-twitter"></i></a>
+            </div>
+            <p class="mb-0">© 2025 EcoTech Soluções. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="vendor/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
