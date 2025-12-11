@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos - EcoTech</title>
+    <link href="vendor/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><i class="fas fa-leaf"></i> EcoTech</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="sobre.html">Sobre Nós</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="produtos.html">Produtos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="equipe.html">Equipe</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="bg-dark text-white text-center py-5 mt-5">
+        <div class="container mt-3">
+            <h1>Soluções Tecnológicas</h1>
+            <p class="lead">Ferramentas para transformar o futuro da sua empresa.</p>
+        </div>
+    </header>
+
+    <section class="container py-5">
+        <div class="row mb-4">
+            <div class="col-12 text-center">
+                <div class="btn-group" role="group">
+                    <button type="button" class="btn btn-outline-success active">Todos</button>
+                    <button type="button" class="btn btn-outline-success">Software</button>
+                    <button type="button" class="btn btn-outline-success">Hardware</button>
+                    <button type="button" class="btn btn-outline-success">Serviços</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-header bg-success text-white">Mais Vendido</div>
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=400&q=80" class="card-img-top" alt="EcoManager">
+                    <div class="card-body">
+                        <h5 class="card-title">EcoManager Pro</h5>
+                        <p class="card-text">Plataforma SaaS para gestão integral de resíduos industriais.</p>
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-check text-success"></i> Relatórios em Tempo Real</li>
+                            <li><i class="fas fa-check text-success"></i> Integração com ERP</li>
+                        </ul>
+                    </div>
+                    <div class="card-footer bg-white border-top-0">
+                        <a href="contato.html" class="btn btn-dark w-100">Solicitar Demo</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=400&q=80" class="card-img-top" alt="CyberSecurity Green">
+                    <div class="card-body">
+                        <h5 class="card-title">Green Server Security</h5>
+                        <p class="card-text">Proteção de dados otimizada para servidores de baixo consumo.</p>
+                    </div>
+                    <div class="card-footer bg-white border-top-0">
+                        <a href="contato.html" class="btn btn-outline-dark w-100">Saiba Mais</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm">
+                    <span class="position-absolute top-0 end-0 badge rounded-pill bg-danger m-2">Novo</span>
+                    <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=400&q=80" class="card-img-top" alt="Chip IoT">
+                    <div class="card-body">
+                        <h5 class="card-title">Sensor IoT Água</h5>
+                        <p class="card-text">Monitoramento de vazamentos de água com precisão milimétrica.</p>
+                    </div>
+                    <div class="card-footer bg-white border-top-0">
+                        <a href="contato.html" class="btn btn-outline-dark w-100">Saiba Mais</a>
+                    </div>
+                </div>
+            </div>
+            
+             <div class="col-md-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=400&q=80" class="card-img-top" alt="Painel Solar">
+                    <div class="card-body">
+                        <h5 class="card-title">Kit Solar Office</h5>
+                        <p class="card-text">Kit completo de painéis solares para pequenos escritórios.</p>
+                    </div>
+                    <div class="card-footer bg-white border-top-0">
+                        <a href="contato.html" class="btn btn-outline-dark w-100">Saiba Mais</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-secondary text-white text-center py-3">
+        <p>© 2025 EcoTech Soluções.</p>
+    </footer>
+
+    <script src="vendor/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

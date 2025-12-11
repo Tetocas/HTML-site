@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - EcoTech</title>
+    <link href="vendor/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><i class="fas fa-leaf"></i> EcoTech</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="sobre.html">Sobre Nós</a></li>
+                    <li class="nav-item"><a class="nav-link" href="produtos.html">Produtos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="equipe.html">Equipe</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="contato.html">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="bg-success text-white text-center py-5 mt-5">
+        <div class="container mt-3">
+            <h1>Fale Conosco</h1>
+            <p>Estamos prontos para atender você.</p>
+        </div>
+    </header>
+
+    <section class="container py-5">
+        <div class="row">
+            <div class="col-md-6">
+                <form id="contactForm">
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="nomeInput" placeholder="Nome" required>
+                        <label for="nomeInput">Nome Completo</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="emailInput" placeholder="name@example.com" required>
+                        <label for="emailInput">Endereço de E-mail</label>
+                    </div>
+                    <div class="mb-3">
+                        <select class="form-select p-3" aria-label="Assunto">
+                            <option selected>Selecione o Departamento</option>
+                            <option value="1">Vendas</option>
+                            <option value="2">Suporte Técnico</option>
+                            <option value="3">Recursos Humanos</option>
+                        </select>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <textarea class="form-control" placeholder="Deixe sua mensagem" id="msgInput" style="height: 150px" required></textarea>
+                        <label for="msgInput">Mensagem</label>
+                    </div>
+                    <button type="submit" class="btn btn-dark w-100 p-3">Enviar Mensagem</button>
+                </form>
+            </div>
+            
+            <div class="col-md-6">
+                <div class="card border-0 shadow-sm h-100">
+                    <div class="card-body p-0">
+                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d403.57115993657754!2d-47.88552245717116!3d-15.780865671586408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a3aff653d22b9%3A0x2b578b78f153010!2sAsa%20Norte%20Com%C3%A9rcio%20Local%20Norte%20302%20BL%20C%20Sala%20104%20-%20Asa%20Norte%2C%20Bras%C3%ADlia%20-%20DF%2C%2070723-500!5e0!3m2!1spt-BR!2sbr!4v1765414708741!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0; min-height: 400px;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-secondary text-white text-center py-3">
+        <p>© 2025 EcoTech Soluções.</p>
+    </footer>
+
+    <script src="vendor/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
